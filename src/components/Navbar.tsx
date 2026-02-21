@@ -26,8 +26,8 @@ export function Navbar() {
     return (
         <motion.header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? "py-4 bg-background/70 backdrop-blur-md border-b border-white/10"
-                    : "py-6 bg-transparent"
+                ? "py-4 bg-background/70 backdrop-blur-md border-b border-white/10"
+                : "py-6 bg-transparent"
                 }`}
             initial={{ y: -100 }}
             animate={{ y: 0 }}
@@ -39,12 +39,12 @@ export function Navbar() {
                 </Link>
 
                 {/* Desktop Nav */}
-                <nav className="hidden md:flex items-center space-x-8">
+                <nav className="hidden md:flex items-center space-x-2">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             href={link.href}
-                            className={`text-sm tracking-wide uppercase font-medium transition-colors hover:text-primary ${pathname === link.href ? "text-white" : "text-neutral-400"
+                            className={`px-4 py-4 text-sm tracking-wide uppercase font-medium transition-colors hover:text-primary ${pathname === link.href ? "text-white" : "text-neutral-400"
                                 }`}
                         >
                             {link.name}
