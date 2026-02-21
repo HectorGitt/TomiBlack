@@ -31,12 +31,12 @@ export function SplashScreen() {
                     transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] }}
                     className="fixed inset-0 z-[10000] flex flex-col items-center justify-center bg-[#020202]"
                 >
-                    <div className="overflow-hidden mb-8">
+                    <div className="overflow-hidden mb-8 pr-4">
                         <motion.h1
                             initial={{ y: "150%" }}
                             animate={{ y: "0%" }}
                             transition={{ duration: 1.2, ease: [0.21, 0.47, 0.32, 0.98] }}
-                            className="text-5xl md:text-8xl font-serif font-bold tracking-tighter uppercase text-white leading-none"
+                            className="text-5xl md:text-8xl font-serif font-bold tracking-tighter uppercase text-white leading-none pr-4"
                         >
                             Tomi<span className="text-primary italic">Black</span>
                         </motion.h1>
