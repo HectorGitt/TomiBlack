@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { TrendingUp, Users, Target } from "lucide-react";
+import Link from "next/link";
 
 export default function SolutionsPage() {
     return (
@@ -70,14 +71,15 @@ export default function SolutionsPage() {
                     <p className="text-lg md:text-xl opacity-90 mb-10 max-w-2xl mx-auto font-medium">
                         Stop losing viewers to poorly paced edits. Let TomiBlack engineer your next viral hit or high-converting campaign.
                     </p>
-                    <motion.a
-                        href="/contact"
-                        className="inline-block bg-black text-white px-10 py-5 rounded-full font-semibold uppercase tracking-widest text-sm hover:bg-neutral-900 transition-colors"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        Book a Strategy Call
-                    </motion.a>
+                    <Link href="/contact">
+                        <motion.div
+                            className="inline-block bg-black text-white px-10 py-5 rounded-full font-semibold uppercase tracking-widest text-sm hover:bg-neutral-900 transition-colors"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            Book a Strategy Call
+                        </motion.div>
+                    </Link>
                 </motion.div>
             </div>
         </main>
