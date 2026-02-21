@@ -9,7 +9,7 @@ const portfolioItems = [
         id: 1,
         title: "Cyberpunk Commercial",
         category: "Commercial",
-        thumbnail: "https://images.unsplash.com/photo-1533422902779-babd491104ef?q=80&w=2670&auto=format&fit=crop",
+        thumbnail: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop",
         video: "https://www.w3schools.com/html/mov_bbb.mp4",
         colSpan: "col-span-1 md:col-span-2",
         rowSpan: "row-span-1 md:row-span-2",
