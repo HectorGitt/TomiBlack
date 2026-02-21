@@ -17,7 +17,7 @@ export function Hero() {
                     poster="https://images.unsplash.com/photo-1605634691459-7b56837ee50d?q=80&w=2670&auto=format&fit=crop"
                 >
                     {/* Muted/desaturated abstract dark particles video */}
-                    <source src="https://cdn.coverr.co/videos/coverr-moving-monochrome-particle-waves-9502/1080p.mp4" type="video/mp4" />
+                    <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" type="video/mp4" />
                 </video>
                 <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/60 to-background" />
             </div>
